@@ -1,2 +1,2 @@
-# Ciencia-de-datos-Capstone
-Este proyecto consiste en aplicar todo lo aprendido durante el curso de ciencia de datos
+# Proyecto de ciencia de datos aplicada (Capstone) del Certificado Profesional en Ciencia de Datos de IBM
+
