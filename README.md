@@ -14,5 +14,5 @@ En esta fase se realizaron consultas SQL en el archivo CSV Conjunto de datos de 
 ## Fase 5:
 Durante esta fase se practicó el análisis exploratorio de los datos (EDA) y la ingeniería de características. Se generaron diagramas de dispersión para conocer la relación entre las variables dependiente e independiente utilizando la función catplot, además, se utiliza el método groupby para generar las clases para el gráfico de barras generado con la función bar. Finalmente se genera un gráfico de líneas para observar la tendencia anual de las tasas de éxito en los lanzamientos. Para la ingeniería de características se utilizó la función get_dummies para aplicar el OneHotEncoder a las columnas que fueron seleccionadas por presentar mejor relación. Finalmente se utilizó la función astype para convertir los valores de las columnas seleccionadas a float64.
 ## Fase 6: 
-
+En esta fase se generaron mapas interactivos mediante Folium para detectar patrones de lanzamiento contra las tasas de éxito. También se generaron marcas para aterrizajes exitosos y no exitosos, etiquetas con diferentes colores y se generó el uso interactivo de las coordendas. Finalmente se trazaron líneas para determinar la distancia de los sitios de lanzamiento contra lugares de interés.
 ## Fase 7:
