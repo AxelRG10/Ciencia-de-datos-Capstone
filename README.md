@@ -10,7 +10,7 @@ Se extrajo una tabla HTML de los registros de lanzamientos, posteriormente la ta
 ## Fase 3:
 Esta fase consistió en la manipulación de los datos y posteriormente se realizó el análisis exploratorio (EDA) para encontrar patrones en los datos y determinar las etiquetas para entrenar los modelos de aprendizaje automático supervisados. Se genera el dataframe que lee el archivo CSV y posteriormente realizamos algunas determinaciones para las columnas; Lauchsite, orbit, outcome. Determinando la cantidad que se repite cada uno de sus datos utilizando el método .value_counts(). Posteriormente se generan las etiquetas de clase 0 y 1 para lanzamientos fallidos y exitosos respectívamente y se genera la columna correspondiente en el marco de datos, "Class". Por último se determina la media o tasa de éxito para esta columna, de la cual se concluye que más de la mitad (66%) de los lanzamientos se han realizado de forma exitosa.
 ## Fase 4:
-
+En esta fase se realizan consultas SQL en el archivo CSV Conjunto de datos de SpaceX. Se inicia proporcionando el comando %load_ext sql para poder realizar consultas SQL en el cuaderno de Jupyter, después de cargar las librerías necesarias se conecta con la base de datos a través del comando %sql sqlite:///my_data1.db. Se eliminaron las filas con que contenían datos en blanco y posteriormente se generó la tabla SPACEXTBL para realizar las consultas en esta. Se relizando cosultas buscando la fehca del primer lanzamiento exitoso, la carga total de los propulsores de la NASA, etc. Adicional a esto, se realizaron búsquedas más complejas que requierieron el uso de agrupaciones y subconsultas.
 ## Fase 5:
 
 ## Fase 6: 
