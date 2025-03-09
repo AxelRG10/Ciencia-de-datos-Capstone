@@ -8,7 +8,7 @@ Para esta fase se inició con la recopilación de los datos a partir de la API d
 En esta fase del proyecto se realizó un raspado web para recopilar los registros históricos del lanzamiento del Falcon 9 de una página de Wikipedia titulada Lista de lanzamientos de Falcon 9 y Falcon Heavy: https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
 Se extrajo una tabla HTML de los registros de lanzamientos, posteriormente la tabla se transformó en un marco de datos de Pandas para realizar su análisis.
 ## Fase 3:
-
+Esta fase consistió en la manipulación de los datos y posteriormente se realizó el análisis exploratorio (EDA) para encontrar patrones en los datos y determinar las etiquetas para entrenar los modelos de aprendizaje automático supervisados. Se genera el dataframe que lee el archivo CSV y posteriormente realizamos algunas determinaciones para las columnas; Lauchsite, orbit, outcome. Determinando la cantidad que se repite cada uno de sus datos utilizando el método .value_counts(). Posteriormente se generan las etiquetas de clase 0 y 1 para lanzamientos fallidos y exitosos respectívamente y se genera la columna correspondiente en el marco de datos, "Class". Por último se determina la media o tasa de éxito para esta columna, de la cual se concluye que más de la mitad (66%) de los lanzamientos se han realizado de forma exitosa.
 ## Fase 4:
 
 ## Fase 5:
